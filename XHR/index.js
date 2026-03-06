@@ -16,3 +16,17 @@ button.addEventListener('click',()=>{
   xhr.open('GET','https://dog.ceo/api/breeds/image/random')
   xhr.send()
 })
+
+// Click button
+//    ↓
+// Create XHR
+//    ↓
+// Open request
+//    ↓
+// Send request
+//    ↓
+// Server responds
+//    ↓
+// load event fires
+//    ↓
+// image.src updated
